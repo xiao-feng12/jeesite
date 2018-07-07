@@ -18,7 +18,7 @@ import ${packageName}.${moduleName}.entity<#if subModuleName != "">.${subModuleN
  * @author ${functionAuthor}
  * @version ${functionVersion}
  */
-@MyBatisDao
+@Mapper
 public interface ${ClassName}Dao extends CrudDao<${ClassName}> {
 	
 }]]>
