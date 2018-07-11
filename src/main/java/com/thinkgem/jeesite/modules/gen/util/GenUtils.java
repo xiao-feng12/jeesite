@@ -357,6 +357,8 @@ public class GenUtils {
             content = content.replace("shiro:", "@shiro.");
             content = content.replace("sys:","@sys.");
             content = content.replace("htmlEscape=\"false\"","htmlEscape=false");
+            content = content.replace("allowClear=\"true\"","allowClear=true");
+            content = content.replace("notAllowSelectParent=\"true\"","notAllowSelectParent=true");
         }
 
         logger.debug(" content === \r\n" + content);
